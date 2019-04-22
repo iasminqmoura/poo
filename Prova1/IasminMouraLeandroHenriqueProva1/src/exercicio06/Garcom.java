@@ -4,7 +4,7 @@ import exercicio05.Copo;
 
 public class Garcom {
 
-	Copo[]copos = new Copo[2];
+	Copo[]copos = new Copo[4];
 
 	public Copo[] getCopos() {
 		return copos;
