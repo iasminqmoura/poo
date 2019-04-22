@@ -9,9 +9,9 @@ public class Data {
 	
 	public Data(int mes, int dia, int ano) {
 		super();
-		this.mes = mes;
-		this.dia = dia;
-		this.ano = ano;
+		this.setMes = mes;
+		this.setDia = dia;
+		this.setAno = ano;
 	}
 	
 	public int getMes() {
@@ -20,7 +20,7 @@ public class Data {
 	public void setMes(int mes) {
 		if(mes < 1 || mes > 12)
 		{
-			System.out.println("Insira um mês válido");
+			System.out.println("Insira um mÃªs vÃ¡lido");
 		}
 		else
 		{
@@ -35,7 +35,7 @@ public class Data {
 		{
 			if(dia < 1 || dia > 30)
 			{
-				System.out.println("Insira um dia válido.");
+				System.out.println("Insira um dia vÃ¡lido.");
 			}
 			else
 			{
@@ -46,7 +46,7 @@ public class Data {
 		{
 			if(dia < 1 || dia > 31)
 			{
-				System.out.println("Insira um dia válido");
+				System.out.println("Insira um dia vÃ¡lido");
 			}
 			else
 			{
